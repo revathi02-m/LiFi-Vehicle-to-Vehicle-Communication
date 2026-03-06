@@ -1,3 +1,12 @@
+/*
+LiFi Vehicle-to-Vehicle Communication System
+
+Author: Revathi Chandrasekaran
+Description:
+Arduino implementation of a visible light communication system for transmitting vehicle safety information using LED-based optical wireless communication.
+
+Part of Bachelor's Project
+*/
 
 #include<LiquidCrystal.h> 
 LiquidCrystal lcd(13,12,11,10,9,8); 
@@ -114,3 +123,4 @@ delay(800);
 //lcd.setCursor(13,1);
 //lcd.print(distance);
 }
+
