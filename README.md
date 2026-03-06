@@ -32,6 +32,17 @@ The LED transmitter modulates data through visible light. A photodiode receiver 
 - Vehicle safety systems
 - Optical wireless communication research
 
+## Code Structure
+
+The Arduino code is divided into two parts:
+
+1. Transmitter
+Location: /code/transmitter/transmitter.ino
+Responsible for modulating vehicle data onto the LED light.
+
+2. Receiver
+Location: /code/receiver/receiver.ino
+Uses a photodiode to detect optical signals and decode the transmitted data.
 ## Future Work
 - Higher data rate modulation techniques
 - Integration with LiFi PHY layer protocols
