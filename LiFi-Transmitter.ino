@@ -1,3 +1,16 @@
+/*
+LiFi Vehicle-to-Vehicle Communication System
+
+Author: Revathi Chandrasekaran
+Description:
+Arduino implementation of a visible light communication system
+for transmitting vehicle safety information using LED-based
+optical wireless communication.
+
+Part of Bachelor's Project
+*/
+
+
 #include <math.h>
 const int x_out = A3; /* connect x_out of module to A1 of UNO board */ 
 const int y_out = A4; /* connect y_out of module to A2 of UNO board */ 
@@ -119,3 +132,4 @@ Serial.print ('c'); delay(1500);
 ////  }
 ////
 ////  }
+
